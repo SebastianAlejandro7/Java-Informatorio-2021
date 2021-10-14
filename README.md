@@ -1,2 +1,3 @@
 # Java-Informatorio-2021
-Ejercicios Complementarios Level 1 y Level 2 (JAVA)
+Ejercicios complementarios de la tercera etapa del Informatorio 2021 (JAVA) resueltos.
+Moreno Sebastian Alejandro
