@@ -1,5 +1,3 @@
-package com.masqueprogramar.recursividad;
-
 import java.util.Scanner;
 
 public class FactorialRecursivo {
