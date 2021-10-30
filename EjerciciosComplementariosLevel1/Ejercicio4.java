@@ -8,10 +8,8 @@ public class Ejercicio4 {
         System.out.print("Introduce un número: ");
         int num = sc.nextInt();
         sc.close();
-         
         System.out.println("\nEl factorial de " + num + " es: " + factorial(num));
     }
-     
     public static int factorial(int num){
         if(num == 0){
             return 1;
