@@ -14,10 +14,10 @@ public class DemoArray {
         System.out.println("Longitud de tabla: " +tabla.length);
         System.out.println("Longitud de tabla: " +tabla.length);
         System.out.println("Longitud de tabla: " +tabla.length);
-        for (int i=0; i < lista.length; i++)
+            for (int i=0; i < lista.length; i++)
         lista=i*i;
         System.out.print("La lista es: ");
-        for (int i=0; i < lista.length; i++)
+            for (int i=0; i < lista.length; i++)
         System.out.print(lista+ " ");
         System.out.println();
     }
