@@ -15,16 +15,13 @@ public class Ejercicio3 {
         cartas.add(9);
         cartas.add(10);
         System.out.println(cartas);
-
         ordenInverso(cartas);
         ordenAleatorio(cartas);
     }
-
     static void ordenInverso(ArrayList<Integer> list) {
         Collections.sort(list, Collections.reverseOrder());
         System.out.println(list);
     }
-
     static void ordenAleatorio(ArrayList<Integer> list) {
         Collections.shuffle(list);
         System.out.println(list);
