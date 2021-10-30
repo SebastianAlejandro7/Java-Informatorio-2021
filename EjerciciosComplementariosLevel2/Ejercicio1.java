@@ -8,10 +8,8 @@ public class Ejercicio1{
         ciudades.add("Saenz Peña");
         ciudades.add("Tandil");
         ciudades.add("San Luis");
-
         ranking(ciudades);
     }
-
     static void ranking(ArrayList<String> list) {
         int posicion = 1;
         for (String i : list) {
