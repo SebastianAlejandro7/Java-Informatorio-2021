@@ -10,22 +10,16 @@ class Empleado {
         int hrstrabajadas = 0;
         double sueldo = 0;
         double sueldofinal = 0;
-
         Scanner entrada = new Scanner(System.in);
-
         System.out.println("Ingrese el sueldo del empleado x hora");
         sueldohora = entrada.nextDouble();
-
         System.out.println("Ingrese las horas trabajadas a la semana");
         hrstrabajadas = entrada.nextInt();
-
         if (hrstrabajadas > 40) {
             horasextras = hrstrabajadas - 40;
         }
         sueldohe = horasextras * sueldohora * 2;
-
         sueldo = sueldohora * (hrstrabajadas + horasextras);
-
         if (sueldo >= 20000) {
             impuestos = sueldo * 0.25;
         } else {
