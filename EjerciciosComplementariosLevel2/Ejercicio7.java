@@ -12,7 +12,6 @@ public class Ejercicio7 {
         scan.close();
         System.out.println(fizzBuzzFuncion(numero1, numero2));
     }
-
     public static ArrayList<String> fizzBuzzFuncion(int arg1, int arg2) {
         ArrayList<String> secuencia = new ArrayList<String>();
         for (int i = arg1; i < arg2; i++) {
