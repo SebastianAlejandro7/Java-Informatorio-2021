@@ -1,20 +1,13 @@
 import java.util.Scanner;
 
-public class Ejercicio4 {
-	
-	public static void main(String[] args) {
-	     
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Introduce un número: ");
-        int num = sc.nextInt();
-        sc.close();
-        System.out.println("\nEl factorial de " + num + " es: " + factorial(num));
+public class ejercicio4{
+    public static void main(String[] args) {
+       System.out.println(factorial(10));
     }
-    public static int factorial(int num){
-        if(num == 0){
-            return 1;
-        }
+    public static double factorial (double numero) {
+        if (numero==0)
+          return 1;
         else
-            return num * factorial(num-1);
-    }
-}
+          return numero * factorial(numero-1);
+  }
+} 
